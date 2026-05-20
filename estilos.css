@@ -1,4 +1,129 @@
-* {
+
+body {
+    background-color: rgb(242, 198, 198);
+}
+
+.galeria {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
     background-color: aquamarine;
-    color: violet;
+}
+
+.Menu {
+    justify-content: space-between;
+
+}
+
+
+.tarjeta {
+    transition: 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: containt;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.Formulario {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(229, 111, 111);
+}
+
+.Formulario input,
+.Formulario textarea {
+    padding: 12px; 
+    border-radius: 10px;
+    border: 1px solid rgb(19, 169, 224);
+    font-size: 16px;
+}
+
+.Formulario button {
+    background-color: rgb(185, 79, 199);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Formulario button:hover {
+    background-color: rgb(68, 24, 74);
+}
+
+
+.PaquetesLista {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgb(168, 207, 255);
+    
+}
+
+.Paquete {
+    width: 50%;
+    background-color: gray;
+    padding: 13px;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.Paquete img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 200px;
+    object-fit: containt;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .tarjeta { 
+        width: 90%;
+    }
+
+    .formulario {
+        width: 90%;
+    }
 }
