@@ -1,7 +1,21 @@
 
 body {
-    background-color: rgb(242, 198, 198);
+    background-color: rgb(253, 236, 236);
 }
+
+body a  {
+    color: red;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body a:active {
+    color: green;
+}
+
+body a:hover {
+    color: rgb(32, 0, 128);
+}
+
 
 .galeria {
     height: 100%;
@@ -10,17 +24,25 @@ body {
     justify-content: center;
     gap: 30px;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(183, 207, 255);
+    border-radius: 5px;
 }
 
 .Menu {
     justify-content: space-between;
+
 
 }
 
 
 .tarjeta {
     transition: 0.3s;
+    font-family: sans-serif;
+   box-shadow: 0 0 5px rgb(86, 84, 84);
+   padding: 5px;
+   background-color: rgb(255, 230, 196);
+   border-radius: 20px;
+   max-width: 50%;
 }
 
 .tarjeta:hover {
@@ -34,17 +56,17 @@ body {
     object-fit: containt;
     max-width: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 
 .Formulario {
+    background-color: rgb(241, 236, 236);
     width: 600px;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 15px; 
-    background-color: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 5px rgb(229, 111, 111);
