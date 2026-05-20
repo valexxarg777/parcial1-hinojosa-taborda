@@ -12,8 +12,8 @@
         <ul>
             <li><a href="">Inicio</a></li>
             <li><a href="">Destinos Destacados</a></li>
-            <li><a href="">Paquetes Turisticos</a></li>
-            <li><a href="">Consultas</a></li>
+            <li><a href="#paquetes">Paquetes Turisticos</a></li>
+            <li><a href="#Consulta">Consultas</a></li>
         </ul>
     </nav>
 
@@ -24,23 +24,81 @@
                 <!-- Tarjeta individual. Estructura repetible ideal para aplicar estilos en bloque -->
                 <div class="tarjeta">
                     <!-- src: Ruta relativa de la imagen. alt: Texto alternativo esencial para accesibilidad (si la imagen no carga o para lectores de pantalla) -->
-                    <img src="./imagenes/barcelona.jpg" alt="imagen 1">
+                    <img src="./imagenes/barcelona.jpg" alt="Foto Barcelona">
                     <h3>Tarjeta 1</h3>
                     <p>Texto descriptivo</p>
                 </div>
 
                 <div class="tarjeta">
-                    <img src="./imagenes/paris.jpg" alt="imagen 2">
+                    <img src="./imagenes/paris.jpg" alt="Foto Paris">
                     <h3>Tarjeta 2</h3>
                     <p>Texto descriptivo</p>
                 </div>
 
                 <div class="tarjeta">
-                    <img src="./imagenes/praga.jpg" alt="imagen 3">
+                    <img src="./imagenes/praga.jpg" alt="Foto Praga">
                     <h3>Tarjeta 3</h3>
                     <p>Texto descriptivo</p>
                 </div>
         </div>
     </section>
+
+
+    <section id="paquetes">
+    
+        <h2>Paquetes Turisticos</h2>
+        <p>Descubre nuestros paquetes turísticos exclusivos y planifica tu próximo viaje con nosotros.</p>
+         <div class="PaquetesLista">
+            <div class="Paquete">
+                <h2>VIAJA EN CUOTAS!</h2>
+                <img src="./imagenes/paquete1.jpg" alt="Foto Paquete 1">
+                <h3>Paquete Paris</h3>
+                <p>Destino</p>
+                <p>Saliendo desde</p>
+                <p>Vuelos</p>
+                <p>Alojamientos</p>
+                <p>Precios</p>
+            </div>
+
+
+
+            <div class="Paquete">
+                <h2>VIAJA EN CUOTAS!</h2>
+                <img src="./imagenes/paquete1.jpg" alt="Foto Paquete 1">
+                <h3>Paquete Paris</h3>
+                <p>Destino</p>
+                <p>Saliendo desde</p>
+                <p>Vuelos</p>
+                <p>Alojamientos</p>
+                <p>Precios</p>
+            </div>
+
+
+
+            <div class="Paquete">
+                <h2>MAS VENDIDO!</h2>
+                <img src="./imagenes/paquete1.jpg" alt="Foto Paquete 1">
+                <h3>Paquete Paris</h3>
+                <p>Destino</p>
+                <p>Saliendo desde</p>
+                <p>Vuelos</p>
+                <p>Alojamientos</p>
+                <p>Precios</p>
+            </div>         
+            </div>
+         </div>
+    </section>
+
+    <section id="Consulta">
+        <h2>Consultas</h2>
+        <form class="Formulario">
+            <input type="text" placeholder="Ingrese su nombre">
+            <input type="email" placeholder="Ingrese su email">
+            <textarea placeholder="Ingrese un mensaje"></textarea>
+            <button>Enviar</button>
+            <button type="button" id="boton">Enviar</button>
+        </form>
+    </section>
+
 </body>
 </html>
